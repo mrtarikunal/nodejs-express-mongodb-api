@@ -1,0 +1,21 @@
+doctype html
+html
+ head
+  title Natours | #{tour}
+  //- interpolution string içinde variable kullanmak istyrsak #{} böyle kullanyrz
+  link(rel='stylesheet' href='css/style.css')
+  link(rel='shortcut icon' type='image/png' href='img/favicon.png')
+
+ body 
+  h1= tour
+  //tour variable nı kullandık.
+  //- h1 The Park Cumper pug template commenti html comment olarak render olmaz
+  h2= user.toUpperCase()
+  //- user variable kullandık ayrıca uppersace için js kullandık
+  //- bu kullanım buffer code. ondan dolayı js kullanablyrz
+
+  - const x = 9;
+  //- - kullanarak js yazablyrz
+  h2= 2 * x
+
+  p this is some text
