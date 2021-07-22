@@ -8604,10 +8604,10 @@ Object.defineProperty(exports, "__esModule", {
 exports.displayMap = void 0;
 
 var displayMap = function displayMap(locations) {
-  mapboxgl.accessToken = 'pk.eyJ1IjoidGFyaWt1bmFsIiwiYSI6ImNrcjQxbTd1ZjJyamQydnFwY2pjdTlocDIifQ.h7ZVEQwFnRAqt4pAwDCcJw';
+  mapboxgl.accessToken = 'pk.sdsds';
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/tarikunal/ckr420rro01q517mpufbkmb4j',
+    style: 'mapbox://styles/tarikunal/sdsdsdsd',
     scrollZoom: false //center: [-118.113491, 34.111745],
     //zoom: 9,
     //interactive: false
